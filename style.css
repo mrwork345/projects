@@ -10,7 +10,7 @@ body {
 header {
     background-color: #004d40; /* A dark teal */
     color: #fff;
-    padding: 1em 0;
+    
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
