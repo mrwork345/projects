@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #004d40; /* A dark teal */
-    color: #fff;
+    background-color:blue;
+    color:white;
     
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -107,4 +107,5 @@ footer {
 
 .button:hover {
     opacity: 0.8;
+
 }
