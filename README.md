@@ -1,1 +1,1 @@
-this is a kholi pprtfolio
+I am a pro full stack developer, just kidding!
