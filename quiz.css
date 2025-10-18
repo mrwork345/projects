@@ -32,4 +32,17 @@ p {
 }
 h3 {
     font-size: 20px;
+
+}
+#mu {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: aliceblue;   
+}
+#vgames {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: chocolate;
 }
