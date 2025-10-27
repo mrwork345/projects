@@ -4,13 +4,21 @@ font-family: 'Courier New', Courier, monospace;
 }
 #first {
     text-align: center;
-    background-color: rgba(192, 192, 192, 0.616);
+    background-color: burlywood;
     
 }
 h2 {
     color:rgba(255, 0, 0, 0.548);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: burlywood;
+    margin-top: 50px;
+
+
 }
+
+
+
 p {
     font-size: 30px;
     
@@ -32,7 +40,21 @@ p {
 }
 h3 {
     font-size: 20px;
-
+}
+#am {
+    margin-left:20px ;
+    margin-top:20px ;
+    font-size:25px ;
+    background-color: rgba(255, 0, 0, 0.726);
+}
+#ma {
+    margin-top:20px ;
+    margin-left:20px ;
+    font-size:25px ;
+    background-color:rgba(0, 128, 6, 0.336) ;
+}
+#third {
+    text-align: center;
 }
 #mu {
     margin-left: 20px;
