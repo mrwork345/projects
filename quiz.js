@@ -1,7 +1,6 @@
 let score = 0;
 let answeredQuestions = 0;
 
-
 function as() {
     document.getElementById("a").innerHTML = "CORRECT 🏆";
     score++;
@@ -15,7 +14,6 @@ function ab() {
     checkScore();
 }
 
-
 function im() {
     document.getElementById("b").innerHTML = "WRONG ❌";
     answeredQuestions++;
@@ -28,27 +26,36 @@ function mr() {
     answeredQuestions++;
     checkScore();
 }
+
 function music() {
-    document.getElementById("c").innerHTML="always Music"
+    document.getElementById("c").innerHTML = "Always Music 🎵";
     answeredQuestions++;
-    checkScore();
     score++;
+    checkScore();
 }
+
 function games() {
-    document.getElementById("c").innerHTML="Bad choice baby"
+    document.getElementById("c").innerHTML = "Bad choice baby 😅";
     answeredQuestions++;
     checkScore();
 }
+
+function kholi() {
+    document.getElementById("d").innerHTML = "CORRECT 🏆 Virat Kohli is a classical batsman!";
+    score++;
+    answeredQuestions++;
+    checkScore();
+}
+
+function farhan() {
+    document.getElementById("d").innerHTML = "Nah bro ❌";
+    answeredQuestions++;
+    checkScore();
+}
+
 function checkScore() {
-    if (answeredQuestions === 3) {
-        document.getElementById("score").innerHTML = "🎯 Your Total Score: " + score + " / 3";
+    if (answeredQuestions === 4) {
+        document.getElementById("score").innerHTML = "🎯 Your Total Score: " + score + " / 4";
     }
 }
-
-
-
-
-
-
-
 
