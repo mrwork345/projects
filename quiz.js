@@ -53,9 +53,22 @@ function farhan() {
     checkScore();
 }
 
+function shaffeq() {
+    document.getElementById("e").innerHTML = "CORRECT 🏆 Shaffeq Chushti is more powerful!";
+    score++;
+    answeredQuestions++;
+    checkScore();
+}
+
+function roman() {
+    document.getElementById("e").innerHTML = "WRONG ❌";
+    answeredQuestions++;
+    checkScore();
+}
+
 function checkScore() {
-    if (answeredQuestions === 4) {
-        document.getElementById("score").innerHTML = "🎯 Your Total Score: " + score + " / 4";
+    if (answeredQuestions === 5) {
+        document.getElementById("score").innerHTML = "🎯 Your Total Score: " + score + " / 5";
     }
 }
 
