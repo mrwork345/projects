@@ -1,28 +1,31 @@
+body {
+    background-color: #232946;
+    color: #121629;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
 
 h1 {
-    color: cornflowerblue;
+    color:blue;
     font-family: 'Courier New', Courier, monospace;
 }
 #first {
     text-align: center;
-    background-color: burlywood;
+    background-color: purple;
 }
 h2 {
-    color: rgba(255, 0, 0, 0.548);
+    color: #00b8a9; /* teal, matches button and modern palette */
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: burlywood;
+    background-color: blue;
     margin-top: 50px;
 }
 p {
     font-size: 30px;
+    color:blue;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
-#au {
-    background-color: greenyellow;
-    margin-top: 20px;
-    margin-right: 5px;
-    font-size: 30px;
-}
+#au { background-color: #8f5fd7; color: #fff; }      /* Australia - purple */
 #pa {
     background-color: green;
     margin-top: 20px;
@@ -41,37 +44,87 @@ h3 {
     font-size: 25px;
     background-color: rgba(255, 0, 0, 0.726);
 }
-#ma {
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 25px;
-    background-color: rgba(0, 128, 6, 0.336);
-}
+#ma { background-color: #ffb400; color: #232946; }   /* Nawaz Shareef - yellow */
 #third, #fourth {
     text-align: center;
 }
-#mu {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 25px;
-    background-color: aliceblue;   
-}
+#mu { background-color: #00b8a9; color: #fff; }      /* Music - teal */
 #vgames {
     margin-top: 20px;
     margin-left: 20px;
     font-size: 25px;
     background-color: chocolate;
 }
-#vk {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 25px;
-    background-color: blue;
-}
+#vk { background-color: #ff595e; color: #fff; }      /* Virat Kohli - coral */
 #sf {
     margin-left: 20px;
     margin-top: 20px;
     font-size: 25px;
     background-color: green;
 }
+#sc { background-color: #1982c4; color: #fff; }      /* Shaffeq Chushti - blue */
+#rr {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: gray;
+}
+#fifth {
+    text-align: center;
+}
+
+#first, #second, #third, #fourth, #fifth {
+    background-color: #fffffe;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(35, 41, 70, 0.1);
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1, h2 {
+    color: #eebbc3;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    color: #232946;
+}
+
+/* Shared button style for size and shape */
+button {
+    font-size: 22px;
+    margin: 15px 10px 0 10px;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    min-width: 160px;
+    min-height: 48px;
+    box-sizing: border-box;
+    transition: background 0.2s;
+}
+
+/* Individual background colors for each button */
+#au { background-color: #8f5fd7; }
+#pa { background-color: #ff595e; }
+#am { background-color: #2979ff; }
+#ma { background-color: #ffb400; color: #232946; }
+#mu { background-color: #00b8a9; }
+#vgames { background-color: #f67280; }
+#vk { background-color: #355c7d; }
+#sf { background-color: #2ecc71; }
+#sc { background-color: #1982c4; }
+#rr { background-color: #e84545; }
+
+#score {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+
 
