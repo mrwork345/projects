@@ -2,129 +2,264 @@ body {
     background-color: #232946;
     color: #121629;
     font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
-h1 {
-    color:blue;
-    font-family: 'Courier New', Courier, monospace;
-}
-#first {
+/* welcome text (shows registered user name) */
+#welcome {
     text-align: center;
-    background-color: purple;
-}
-h2 {
-    color: #00b8a9; /* teal, matches button and modern palette */
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: blue;
-    margin-top: 50px;
-}
-p {
-    font-size: 30px;
-    color:blue;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-#au { background-color: #8f5fd7; color: #fff; }      /* Australia - purple */
-#pa {
-    background-color: green;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 30px;
-}
-#second {
-    text-align: center;
-}
-h3 {
+    margin: 10px 0 18px 0;
     font-size: 20px;
-}
-#am {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 25px;
-    background-color: rgba(255, 0, 0, 0.726);
-}
-#ma { background-color: #ffb400; color: #232946; }   /* Nawaz Shareef - yellow */
-#third, #fourth {
-    text-align: center;
-}
-#mu { background-color: #00b8a9; color: #fff; }      /* Music - teal */
-#vgames {
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 25px;
-    background-color: chocolate;
-}
-#vk { background-color: #ff595e; color: #fff; }      /* Virat Kohli - coral */
-#sf {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 25px;
-    background-color: green;
-}
-#sc { background-color: #1982c4; color: #fff; }      /* Shaffeq Chushti - blue */
-#rr {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 25px;
-    background-color: gray;
-}
-#fifth {
-    text-align: center;
+    color: #eebbc3;
+    font-weight: 600;
 }
 
-#first, #second, #third, #fourth, #fifth {
+/* card style shared by header and question blocks */
+#first, #second, #third, #third2, #fourth, #fifth {
     background-color: #fffffe;
     border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(35, 41, 70, 0.1);
-    margin: 30px auto;
+    box-shadow: 0 6px 18px rgba(35,41,70,0.08);
+    margin: 20px auto;
     padding: 20px;
-    max-width: 600px;
-}
-
-h1, h2 {
-    color: #eebbc3;
+    max-width: 720px;
     text-align: center;
 }
 
-h3 {
-    font-size: 22px;
-    color: #232946;
+/* header */
+h1 {
+    margin: 6px 0;
+    color: #eebbc3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
 }
 
-/* Shared button style for size and shape */
-button {
+h2 {
+    margin: 12px 0 0 0;
+    color: #00b8a9; /* teal */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* question paragraph */
+p {
     font-size: 22px;
-    margin: 15px 10px 0 10px;
-    padding: 12px 36px;
+    color: #6a4c93; /* soft purple, matching palette */
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    max-width: 720px;
+    margin: 16px auto 0 auto;
+    padding: 0 10px;
+}
+
+/* answer label */
+h3 {
+    font-size: 18px;
+    color: #232946;
+    margin-bottom: 8px;
+}
+
+/* Shared button style for size and shape (all same size) */
+button {
+    font-size: 18px;
+    margin: 12px 10px 0 10px;
+    padding: 10px 28px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     color: #fff;
     min-width: 160px;
-    min-height: 48px;
+    min-height: 44px;
     box-sizing: border-box;
-    transition: background 0.2s;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
 
-/* Individual background colors for each button */
-#au { background-color: #8f5fd7; }
-#pa { background-color: #ff595e; }
-#am { background-color: #2979ff; }
-#ma { background-color: #ffb400; color: #232946; }
-#mu { background-color: #00b8a9; }
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+
+#au { background-color: #8f5fd7; }   
+#pa { background-color: #ff6b6b; }   
+#am { background-color: #2979ff; }   
+#ma { background-color: #ffb400; color: #232946; } 
+#mu { background-color: #00b8a9; }   
 #vgames { background-color: #f67280; }
-#vk { background-color: #355c7d; }
-#sf { background-color: #2ecc71; }
-#sc { background-color: #1982c4; }
-#rr { background-color: #e84545; }
+#vk { background-color: #355c7d; }   
+#sf { background-color: #2ecc71; }   
+#sc { background-color: #1982c4; }   
+#rr { background-color: #6c5ce7; }   
+
 
 #score {
-    color: white;
+    color:white;
     text-align: center;
-    margin-top: 40px;
-    font-size: 28px;
+    margin-top: 24px;
+    font-size: 24px;
 }
 
+/* Add this to your quiz.css file */
 
+#chatbot {
+    position: fixed;
+    right: 24px;
+    bottom: 32px;
+    width: 240px;
+    background: #fffffe;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(35,41,70,0.15);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    z-index: 1000;
+}
 
+#chatbot-header {
+    background: #00b8a9;
+    color: #fff;
+    padding: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+#chatbot-body {
+    padding: 16px;
+    text-align: center;
+}
+
+#hintBtn {
+    background: #8f5fd7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#hintBtn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+#hintMsg {
+    margin-top: 10px;
+    color: #232946;
+    font-size: 16px;
+    min-height: 24px;
+}
+
+/* Add to quiz.css */
+#hearts {
+    position: fixed;
+    top: 24px;
+    right: 32px;
+    font-size: 32px;
+    color: #e84545;
+    z-index: 1001;
+    user-select: none;
+}
+
+/* Beautiful modal popup for name entry */
+/* Lose modal uses same styles as name modal */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(35, 41, 70, 0.85);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    background: #fffffe;
+    padding: 40px 36px 32px 36px;
+    border-radius: 18px;
+    box-shadow: 0 12px 36px rgba(35,41,70,0.22);
+    text-align: center;
+    min-width: 340px;
+    animation: popUp 1s;
+}
+
+@keyframes popUp {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.modal-content h2 {
+    color: teal;
+    margin-bottom: 22px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.modal-content p {
+    color: #232946;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+#modalNameInput {
+    width: 85%;
+    padding: 14px;
+    font-size: 19px;
+    border: 2px solid #eebbc3;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+#modalNameInput:focus {
+    border-color: #00b8a9;
+    outline: none;
+}
+
+#modalSubmitBtn {
+    background-color: #00b8a9;
+    color: white;
+    font-size: 19px;
+    padding: 12px 38px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(35,41,70,0.08);
+}
+
+#modalSubmitBtn:hover {
+    background-color: #019d91;
+    transform: translateY(-2px) scale(1.04);
+}
+
+#loseRestartBtn {
+    background-color: #e84545;
+    color: white;
+    font-size: 19px;
+    padding: 12px 38px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(35,41,70,0.08);
+}
+
+#loseRestartBtn:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px) scale(1.04);
+}

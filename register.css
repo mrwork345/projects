@@ -1,0 +1,54 @@
+body {
+    background-color: #232946;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.register-card {
+    background-color: #fffffe;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(35,41,70,0.08);
+    margin: 80px auto;
+    padding: 40px;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #232946;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #6a4c93;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    font-size: 18px;
+    border: 2px solid #eebbc3;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #00b8a9;
+    color: white;
+    font-size: 18px;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    background-color: #019d91;
+    transform: translateY(-2px);
+}
