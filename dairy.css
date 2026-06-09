@@ -69,3 +69,23 @@ h1 {
     padding: 10px;
     
 }
+#cartbutton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#cartlogo {
+    width: 100px;
+    height: 100px;
+}
+#addtocart {
+     position: absolute;
+    top: 80px;
+    right: 25px;
+    font-family:sans-serif;
+}
